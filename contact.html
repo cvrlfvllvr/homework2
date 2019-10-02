@@ -6,50 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="body">
-    <div class="container-fluid">
-        <div class="row row-1 header">
-            <div class="col-1"></div>
-            <div class="col-3 myname">
-                <h1>Carl Fuller</h1>
-            </div>
-            <div class="col-5"></div>
-            <div class="col-1">
-                <a id="a" href="index.html">About Me</a>
-            </div>
-            <div class="col-1">
-                <a id="a" href="portfolio.html">Portfolio</a>
-            </div>
-            <div class="col-1">
-                <a id="a" href="contact.html">Contact</a>
-            </div>
-        </div>
+<body>
 
-        <div id="row2" class="row">
-            <div class="col-1"></div>
-            <div class="col-3">
-                <h1 class="aboutme">Contact</h1>
-            </div>
-            <div class="col-7 white"></div>
-        </div>
-    </div>
+        <div class="container-fluid my-container">
+                <div class="row my-row">
+                    <div id="name" class="col-sm-12 col-md-4 my-col">
+                        Carl Fuller
+                    </div>
+                    <div id="lg-nav" class="col-sm-12 col-md-8 my-col">
+                        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link active" href="index.html">About Me <span
+                                            class="sr-only">(current)</span></a>
+                                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+        
+                <!-- <div id="sm-nav" class="container-full">
+                        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-item nav-link" href="#">Features</a>
+                                    <a class="nav-item nav-link" href="#">Pricing</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div> -->
+                <div class="container-full">
+                    <div id="title" class="row my-row2">
+                        <div class="col-sm-12 col-lg-12 my-col">
+                            Contact
+                        </div>
+                    </div>
+                </div>
 
-
-    <div class="row">
-        <div class="col-1"></div>
-
-        <div class="col-10 white">
+        <div class="col-12 white">
             <form>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Your Name">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Email address</label>
@@ -59,27 +67,19 @@
 
 
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <label for="exampleFormControlTextarea1">Comments</label>
                     <textarea id="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                <button type="button" class="btn btn-primary">Submit</button>
             </form>
         </div>
-        <div class="col-1"></div>
+
     </div>
-
-
-
-
-
-
-
 
     <div id="footer" class="fixed-bottom">
         <div>
             <h6>Copyright©</h6>
         </div>
-    </div>
-
     </div>
 </body>
 

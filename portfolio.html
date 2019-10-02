@@ -6,46 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="body">
-    <div class="container-fluid">
-        <div class="row row-1 header">
-            <div class="col-1"></div>
-            <div class="col-3 myname">
-                <h1>Carl Fuller</h1>
+<body>
+
+    <div class="container-fluid my-container">
+        <div class="row my-row">
+            <div id="name" class="col-sm-12 col-md-4 my-col">
+                Carl Fuller
             </div>
-            <div class="col-5"></div>
-            <div class="col-1">
-                <a id="a" href="index.html">About Me</a>
-            </div>
-            <div class="col-1">
-                <a id="a" href="portfolio.html">Portfolio</a>
-            </div>
-            <div class="col-1">
-                <a id="a" href="contact.html">Contact</a>
+            <div id="lg-nav" class="col-sm-12 col-md-8 my-col">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light">
+
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="index.html">About Me <span
+                                    class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
 
-        <div id="row2" class="row">
-            <div class="col-1"></div>
-            <div class="col-3">
-                <h1 class="aboutme">Portfolio</h1>
+        <div class="container-full">
+            <div id="title" class="row my-row2">
+                <div class="col-sm-12 col-lg-12 my-col">
+                    Portfolio
+                </div>
             </div>
-            <div class="col-7 white"></div>
         </div>
+        <div class="row justify-content-around my-row">
+            <div id="pic1" class="col-sm-4 col-md-4">
+                <img src="Assets/Images/Daphne.png" alt="Daphne the dog">
+                <h5>Daphne</h5>
+            </div>
+            <div id="pic2" class="col-sm-4 col-md-4">
+                <img src="Assets/Images/portal.png" alt="Portal skatepark Seattle">
+                <h5>Skate</h5>
+            </div>
+        </div>
+        <div class="row justify-content-around my-row">
+            <div id="pic3" class="col-sm-4 col-md-4">
+                <img src="Assets/Images/bike.png" alt="Specialized Bike">
+                <h5>Bike</h5>
+            </div>
+            <div id="pic4" class="col-sm-4 col-md-4">
+                <img src="Assets/Images/chimarathon.png" alt="Chicago Marathon Finish">
+                <h5>Run</h5>
+            </div>
+        </div>
+        <div class="row justify-content-around my-row">
+            <div class="col-sm-4 col-md-4">
+                <img id="pic5" src="Assets/Images/steamboat.png" alt="Standing on a plateau at Steamboat park WA">
+                <h5>Steamboat Park</h5>
+            </div>
+        </div>
+        <!-- <div id="sm-nav" class="container-full">
+                        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-item nav-link" href="#">Features</a>
+                                    <a class="nav-item nav-link" href="#">Pricing</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div> -->
+
     </div>
-
-
     <div id="footer" class="fixed-bottom">
         <div>
             <h6>Copyright©</h6>
         </div>
-    </div>
     </div>
 </body>
 

@@ -1,83 +1,105 @@
-
-
-#body {
+body {
+    margin: 30px;
     background-color: lightgray;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+/* .my-container {
+    border: 1px solid green;
+}
+
+.my-row {
+    border: 3px solid red;
+    height: 100px;
+}
+
+.my-col {
+    border: 3px solid blue;
+} */
+
+#name {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #picture {
     height: 200px;
-    width: auto;
-    position: relative;
     float: left;
-    margin-right: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
-p {
-    text-indent: 10px;
-}
-
-.aboutme {
+#title {
     background-color: white;
     color: teal;
-    height: 100%;
-    text-align: center;
-    margin-left: 0%;
-    padding-top: 9px;
+    font-size: 35px;
+    border-bottom-style: solid gray;
 }
 
-.myname {
-    background-color: teal;
-    color: white;
-    height: 100%;
-    text-align: center;
-    margin-left: 0%;
-    padding-top: 9px;
-
+#main {
+    background-color: white;
 }
 
+#lg-nav {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+    font-size: 25px;
+    margin-bottom: 0px;
+    background-color: white;
+}
+
+#picture {
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
 #footer {
     border-top: solid 10px teal;
     text-align: center;
     background-color: gray;
-}
-
-#paragraph {
-    background-color: white;
-    padding-top: 15px;
-}
-
-#a {
-    color: gray
-}
-
-#title {
-    height: 70px;
-    color: teal;
-    background-color: white;
-    text-align: left;
-}
-
-.header {
-    background-color: white;
-    margin-bottom: 4%;
-}
-
-#row2 {
-    margin-top: 0px;
-}
-
-.white {
-    background-color: white;
+    height: 50px;
 }
 
 #textarea {
-    height: 200px;
+    height: 250px;
 }
 
-@media (max-width: 640px) {
-    
+#pic1 {
+    width: 200px;
 }
 
-@media (max-width: 768px) { ... }
+img {
+    height: 150px;
+    margin-top: 20px;
+}
 
-@media (max-width: 980px) { ... }
+h5 {
+    background-color: teal;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+  @media only screen and (max-width: 650px) {
+    #title {
+      font-size: 20px;
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    #title {
+        font-size: 25px;
+        text-align: center;
+    }
+  }
